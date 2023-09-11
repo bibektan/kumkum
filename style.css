@@ -1,0 +1,33 @@
+.ourproducts{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ourproducts-heading{
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+}
+.ourproducts-heading::after{
+    content: " ";
+    position: absolute;
+    background-color: rgb(224, 222, 222);;
+    width: 276px;
+    height: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* @media (max-width: 500px){
+    .ourproducts-heading::before{
+        wid
+    }
+} */
+
+
+.carddiv{
+    margin-top: 30px;
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
